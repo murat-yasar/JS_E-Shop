@@ -1,0 +1,18 @@
+{
+  "name": "mystore---copy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Murat Yaşar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "formidable": "^2.1.1",
+    "nano": "^10.1.1"
+  }
+}
