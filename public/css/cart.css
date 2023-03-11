@@ -1,0 +1,90 @@
+/* CART */
+.cartContainer {
+  border: 1px solid #e0e4cc;
+  background: white;
+  border-radius: 5px;
+  padding: 0.2rem;
+  width: 96vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+table {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  border-collapse: collapse;
+}
+
+table td,
+table th {
+  text-align: left;
+  padding: 0.25em 1em;
+  border-bottom: 1px solid #e0e4cc;
+}
+
+table td:nth-last-child(1) {
+  text-align: right;
+}
+
+.btnDel:hover {
+  font-weight: bold;
+  border-radius: 1rem;
+  background: orange;
+}
+
+.cart-buttons {
+  width: auto;
+  margin-right: 0;
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em 0;
+}
+
+#carttotals {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+#emptycart {
+  margin-right: 1em;
+}
+
+button,
+input[type="submit"] {
+  border: 1px solid #fa6900;
+  color: #fff;
+  background: #f38630;
+  padding: 0.6em 1em;
+  font-size: 1em;
+  line-height: 1;
+  border-radius: 1.2em;
+  transition: color 0.2s ease-in-out, background 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
+}
+
+button:hover,
+button:focus,
+button:active,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="submit"]:active {
+  background: #a7dbd8;
+  border-color: #69d2e7;
+  color: #000;
+  cursor: pointer;
+}
+
+.feedbackMessage {
+  width: 96vw;
+  line-height: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 4em;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  border: 1px solid #a7dbd8;
+  border-style: solid;
+  border-radius: 5px;
+  background: white;
+  color: #679996;
+}

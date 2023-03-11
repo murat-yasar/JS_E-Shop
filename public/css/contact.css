@@ -1,0 +1,44 @@
+* {box-sizing: border-box;}
+
+.contact-header {
+   padding-top: 70px;
+   padding-bottom: 20px;
+   text-align: center;
+}
+
+.contact-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-width: 400px;
+}
+
+.contact-table {
+   width: 500px;
+   border-radius: 5px;
+   background-color: #f2f2f2;
+   font-size: 1rem;
+   line-height: 2rem;
+   margin-bottom: 25px;
+}
+
+input[type=text], input[type=email] {
+   width: 300px;
+   font-size: 1rem;
+}
+
+#contact-message-title {
+   text-align: left;
+   font-size: 1.5rem;
+}
+
+.contact-message {
+   width: 400px;
+}
+
+#contact-message-area {
+   font-size: 1rem;
+   margin-bottom: 20px;
+   width: 500px;
+   height: 400px;
+}

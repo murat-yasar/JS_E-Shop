@@ -1,0 +1,75 @@
+.main {
+   position: relative;
+   padding: 0.2rem;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+   row-gap: 10px;
+   column-gap: 12px;
+   width: 96vw;
+   margin-top: 20px;
+   margin-left: 2vw;
+   margin-right: 2vw;
+}
+
+.item {
+   position: relative;
+   height: 700px;
+   width: 400px;
+   background: white;
+   padding: 0 0.5rem;
+   line-height: 25px;
+}
+
+.item img {
+   height: 400;
+   width: 380px;
+   /* border-bottom: 1px dashed rgba(0, 0, 0, 0.4); */
+   object-fit: scale-down;
+}
+
+.infoText {
+   font-size: 1rem;
+}
+
+div {
+   text-align: center;
+}
+
+.btnAdd {
+   position: absolute;
+   padding: 0.5rem 0.5rem;
+   background: orange;
+   color: white;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   font-weight: bold;
+   font-size: 1.2rem;
+   right: 10px;
+   bottom: 10px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: 0.3s ease;
+}
+
+.btnAdd:hover {
+   background: rgb(5, 247, 5);
+}
+
+.btnAdd i {
+   margin-left: 5px;
+}
+
+.infoMessage {
+  z-index: 10;
+  position: fixed;
+  width: 100vw;
+  line-height: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  border: 1px solid #a7dbd8;
+  border-style: solid;
+  border-radius: 5px;
+  background: white;
+  color: #679996;
+}

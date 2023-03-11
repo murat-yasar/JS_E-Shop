@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en de tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Backend</title>
+    <!-- Font-Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/cfa41e25a3.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/backend.css" />
+
+    <script src="./js/backend.js" type="module" defer></script>
+  </head>
+
+  <body>
+       <!-- NAVBAR -->
+   <nav class="navbar">
+    <div class="menu-bar">
+      <a href="./index.html"> <i class="fa fa-fw fa-home"></i> Home</a> 
+      <a href="./contact.html"> <i class="fa fa-fw fa-envelope"></i> Contact</a> 
+      <a href="./login.html"> <i class="fa fa-fw fa-user"></i> Login</a>
+      <a href="./backend.html"> <i class="fas fa-user-tie"></i> Admin</a>
+      <a href="./cart.html"> <i class="fa fa-shopping-cart" aria-hidden="true"></i> My Cart</a>
+    </div>
+   </nav>
+
+    <div id="io">
+      <h1>Products</h1>
+
+      <form id="formItem">
+        <input name="_id" type="hidden"/>
+        <input name="_rev" type="hidden"/>
+        <p><input name="name" class="inputField" placeholder="Product Name" /></p>
+        <p><input name="url" class="btnChooseBE" type="file" multiple/></p>
+        <p><select name="os" class="selectField"><option value="none">Operating System</option></select></p>
+        <p><input name="cpu" class="inputField" placeholder="Processor" /></p>
+        <p><input name="vga" class="inputField" placeholder="Graphics" /></p>
+        <p><input name="scr" class="inputField" placeholder="Screen" /></p>
+        <p><input name="hdd" class="inputField" placeholder="HDD" /></p>
+        <p><input name="ram" class="inputField" placeholder="RAM" /></p>
+        <p><input name="bLife" class="inputField" placeholder="Battery Life" /></p>
+        <p><input name="price" class="inputField" placeholder="Price" /></p>
+
+        <button class="btnBE">Save Item</button>
+      </form>
+
+      <br><br>
+
+      <!-- <form id="formSearch">
+        <p><input name="name" class="inputField" placeholder="Search Term" /></p>
+        <div class="divBtnBE">
+          <button id="searchBtn" class="btnBE">Search Item</button>
+          <button id="delBtn" class="btnBE">Delete Item</button>
+        </div>
+      </form> -->
+    </div>
+
+    <main class="mainBE">
+      <table class="table">
+        <tr>
+          <th>Img</th>
+          <!-- <th>Id</th> -->
+          <th>Product</th>
+          <th>OS</th>
+          <th>CPU</th>
+          <th>VGA</th>
+          <th>Disp</th>
+          <th>HDD</th>
+          <th>RAM</th>
+          <th>Price</th>
+          <th></th>
+        </tr>
+      </table>
+    </main>
+  </body>
+</html>

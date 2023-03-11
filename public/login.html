@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de en tr">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
+   <!-- Font-Awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script src="https://kit.fontawesome.com/cfa41e25a3.js" crossorigin="anonymous"></script>
+
+   <!-- Stylesheet -->
+   <link rel="stylesheet" href="./css/styles.css" />
+   
+   <!-- JavaScript -->
+   <script src="./js/login.js"></script>
+   <script src="./js/index.js" defer></script>
+</head>
+
+   <!-- NAVBAR -->
+   <nav class="navbar">
+    <div class="menu-bar">
+      <a href="./index.html"> <i class="fa fa-fw fa-home"></i> Home</a> 
+      <a href="./contact.html"> <i class="fa fa-fw fa-envelope"></i> Contact</a> 
+      <a href="./login.html"> <i class="fa fa-fw fa-user"></i> Login</a>
+      <a href="./admin.html"> <i class="fas fa-user-tie"></i> Admin</a>
+      <a href="./cart.html"> <i class="fa fa-shopping-cart" aria-hidden="true"></i> My Cart</a>
+    </div>
+    <div class="searchContainer">
+      <form action="/action_page.php">
+        <input type="text" placeholder="Search..." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+   </nav>
+
+   <!-- LOGIN FORM -->
+   <h2 class="login-header">Login</h2>
+
+   <div class="login-container">
+      <form action="Script_URL" method="GET|POST">
+         <table class="login-table">
+            <tr>
+               <td><label for="user">User Name</label></td>
+               <td><input type="text" id="user" name="user" value=""></td>
+            </tr>
+            <tr>
+               <td><label for="password">Password:</label></td>
+               <td><input type="password" id="password" name="password" value=""></td>
+            </tr>
+         </table>
+         <br>
+         <div class="btnDiv">
+            <input type="button" id="submitLogin" class="btnAdd" value="Submit" onclick="initLogin()">
+         </div>
+      </form>
+   </div>
+
+   <!-- FOOTER -->
+   <footer class="footer"></footer>
+</body>
+</html>

@@ -1,0 +1,25 @@
+@import "./main.css";
+@import "./navbar.css";
+@import "./slider.css";
+@import "./frame.css";
+@import "./cart.css";
+@import "./contact.css";
+@import "./footer.css";
+@import "./login.css";
+@import "./admin.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: lightgray;
+  min-height: 100vm;
+  overflow-x: hidden;
+}
+
+.invisible {
+  display: none;
+}

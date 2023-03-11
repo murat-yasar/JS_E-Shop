@@ -1,0 +1,57 @@
+/* MAIN IMAGE */
+.mainImgDiv {
+   width: 40vw;
+   background: white;
+   background-repeat:no-repeat;
+   background-size: contain;
+   background-position: center center;
+   position: relative; 
+   height: 500px;
+   width: 700px;
+   margin: auto;
+   box-sizing: border-box;
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+}
+ 
+/* PRODUCT DETAILS */
+.infoHeader{
+   font-size: 2.5rem;
+   margin-top: 50px;
+   text-align: center;
+}
+
+.mainFrameDiv {
+   margin-left: auto;
+   margin-right: auto; 
+
+}
+ 
+.infoDiv {
+   background: white;
+   padding-top: 20px;
+   position: relative; 
+   height: auto;
+   width: auto;
+   margin: auto;
+   box-sizing: border-box;
+   display: block;
+   justify-content:space-between;
+   align-items: center;
+}
+
+.btnDiv {
+   position: relative;
+   padding-top: 5rem;
+}
+ 
+.productDetails{
+   font-size: 1.5rem;
+   text-align: center;
+}
+ 
+.productPreis{
+   font-size: 1.6rem;
+   text-align: center;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="de en tr">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+   <!-- Font-Awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script src="https://kit.fontawesome.com/cfa41e25a3.js" crossorigin="anonymous"></script>
+
+   <!-- Stylesheet -->
+   <link rel="stylesheet" href="./css/styles.css" />
+
+   <!-- JavaScript -->
+   <script src="./js/login.js"></script>
+   <script src="./js/index.js" type="module" defer></script>
+
+   <title>MyStore</title>
+</head>
+<hr>
+
+
+
+   <!-- NAVBAR -->
+   <nav class="navbar">
+    <div class="menu-bar">
+      <a href="./index.html"> <i class="fa fa-fw fa-home"></i> Home</a> 
+      <a href="./contact.html"> <i class="fa fa-fw fa-envelope"></i> Contact</a> 
+      <a href="./login.html"> <i class="fa fa-fw fa-user"></i> Login</a>
+      <a href="./backend.html"> <i class="fas fa-user-tie"></i> Admin</a>
+      <a href="./cart.html"> <i class="fa fa-shopping-cart" aria-hidden="true"></i> My Cart</a>
+    </div>
+    <div class="searchContainer">
+      <form action="/action_page.php">
+        <input type="text" placeholder="Search..." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+   </nav>
+
+      <!-- Message Box -->
+      <div id="messageField" class="infoMessage"></div>
+
+   <!-- SLIDER -->
+   <div class="slideContainer" >
+      <div class="slideBox">
+         <div class="arrowBox">
+            <div id="left" class="arrow" ><img src="./imgs/icons/left-arrow.png" class="arrowImg"></div>
+         </div>
+         <div class="slideDiv"></div>
+         <div class="arrowBox">
+            <div id="right" class="arrow" ><img src="./imgs/icons/right-arrow.png" class="arrowImg"></div>
+         </div>
+      </div>
+    </div>
+
+    <!-- MAIN FRAME -->
+    <div class="mainFrameDiv"></div>
+
+   <!-- CART -->
+   <div class="cart-container invisible">
+      <h2>My Cart</h2>
+      <table>
+         <thead>
+            <tr>
+               <th><strong>Product</strong></th>
+               <th><strong>Price</strong></th>
+               <th></th>
+            </tr>
+         </thead>
+         <!-- Elements to manipulate -->
+         <tbody id="cart-table"></tbody>
+      </table>
+      <hr />
+      <table id="carttotals">
+         <tr>
+            <td><strong>Items</strong></td>
+            <td><strong>Total Price</strong></td>
+         </tr>
+         <tr>
+            <!-- Elements to manipulate -->
+            <td><span id="items-quantity">0</span></td>
+            <td><span id="total"></span></td>
+         </tr>
+      </table>
+
+      <div class="cart-buttons">
+         <button id="emptycart" onclick="emptyCart()">Empty Cart</button>
+         <button id="checkout"  onclick="checkOut()">Check Out</button>
+      </div>
+   </div>
+
+
+
+   <!-- MAIN - SHOWROOM -->
+   <main class="main"></main>
+   
+
+
+   <!-- FOOTER -->
+   <footer class="footer-container">
+      <div class="footer-box">
+         <div class="footer-left">
+            <p>Murat Yaşar</p>
+            <a href="mailto:memluk@gmail.com">memluk@gmail.com</a>
+            <p>Copyright © 2022 MY-Dev. All Rights Reserved</p>
+         </div>
+      </div>
+      <div class="footer-box">
+         <div class="footer-right">
+            <ul>
+               <li><a href="https://github.com/memluk"> <i class="fa-brands fa-github"></i> GitHub</a></li>
+               <li><a href="https://stackoverflow.com/users/18620867/murat-ya%c5%9far"> <i class="fab fa-stack-overflow"></i> StackOverflow</a></li>
+               <li><a href="https://www.linkedin.com/in/murat-ya%C5%9Far-20b55021/"> <i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+               <li><a href="https://twitter.com/MEMLUKHAN"> <i class="fa fa-twitter" aria-hidden="true"></i> twitter</a></li>
+            </ul>
+         </div>
+      </div>
+   </footer>
+</body>
+</html> 

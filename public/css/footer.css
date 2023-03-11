@@ -1,0 +1,36 @@
+.footer-container {
+   width: 96vw; 
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+   padding-left: 2vw;
+   padding-right: 2vw;
+   font-size: 1.2rem;
+}
+
+.footer-box {
+   float: left; 
+   width: 50%;  
+}
+
+.footer-box a{
+   text-decoration: none;  
+}
+
+.footer-left {
+   margin-right: 25%; 
+   text-align: left;
+}
+ 
+.footer-right{
+   margin-left: 25%; 
+   margin-top: 1.5rem;
+}
+
+.footer-right ul{
+   list-style: none;
+}
+
+.footer-right li{
+   display: inline-block;
+   margin-right: 20px;
+}
